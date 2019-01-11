@@ -552,6 +552,6 @@ class __TwigTemplate_a4d8514ca03d18214fc3db9e790b759f57022c5f03883018ba71e3aeb40
     {% endblock body %}
     </html>
 {% endif %}
-", "partials/base-root.html.twig", "E:\\WEB-DEV\\Test\\grav-admin\\user\\plugins\\admin\\themes\\grav\\templates\\partials\\base-root.html.twig");
+", "partials/base-root.html.twig", "E:\\WEB-DEV\\portfolio\\user\\plugins\\admin\\themes\\grav\\templates\\partials\\base-root.html.twig");
     }
 }

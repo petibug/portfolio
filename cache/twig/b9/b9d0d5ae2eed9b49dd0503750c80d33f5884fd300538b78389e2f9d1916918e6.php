@@ -108,6 +108,6 @@ class __TwigTemplate_43c55b4ee1be3baaaa8c7d2bb66c99a55aa1765147e296361d1bbe69876
 
 
 
-", "partials/logo.html.twig", "E:\\WEB-DEV\\Test\\grav-admin\\user\\plugins\\admin\\themes\\grav\\templates\\partials\\logo.html.twig");
+", "partials/logo.html.twig", "E:\\WEB-DEV\\portfolio\\user\\plugins\\admin\\themes\\grav\\templates\\partials\\logo.html.twig");
     }
 }

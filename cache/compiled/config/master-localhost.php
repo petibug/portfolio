@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1546597966,
-    'checksum' => 'ca7e003b7c42f0138664ade0c511900a',
+    'timestamp' => 1547203623,
+    'checksum' => '91f152ebdb4a6325a80c998f2664f3a9',
     'files' => [
         'user/config' => [
             'media' => [
@@ -15,7 +15,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1544825660
+                'modified' => 1547177955
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -23,7 +23,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1546597966
+                'modified' => 1547203618
             ]
         ],
         'system/config' => [
@@ -585,18 +585,21 @@ return [
             'salt' => 'm29B4Z1MYKagR7'
         ],
         'site' => [
-            'title' => 'Grav',
+            'title' => 'Nonograph',
             'default_lang' => 'en',
             'author' => [
-                'name' => 'Joe Bloggs',
-                'email' => 'joe@example.com'
+                'name' => 'Bruno Buglio',
+                'email' => 'bruno.buglio@gmail.com'
             ],
             'taxonomies' => [
                 0 => 'category',
-                1 => 'tag'
+                1 => 'tag',
+                2 => 'CD',
+                3 => 'AD',
+                4 => 'account'
             ],
             'metadata' => [
-                'description' => 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+                'description' => 'Bruno Buglio awesome portfolio'
             ],
             'summary' => [
                 'enabled' => true,

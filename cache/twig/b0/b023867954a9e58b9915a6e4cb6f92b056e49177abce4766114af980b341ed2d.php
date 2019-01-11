@@ -94,6 +94,6 @@ class __TwigTemplate_0a11c0e074f542ccd5e6ceaa0a056ba149247dac1c59073dcb1bd9304f7
     {% do assets.addCss(theme_url~'/css/nucleus-ie9.css') %}
     {% do assets.addCss(theme_url~'/css/pure-0.5.0/grids-min.css') %}
 {% endif %}
-", "partials/stylesheets.html.twig", "E:\\WEB-DEV\\Test\\grav-admin\\user\\plugins\\admin\\themes\\grav\\templates\\partials\\stylesheets.html.twig");
+", "partials/stylesheets.html.twig", "E:\\WEB-DEV\\portfolio\\user\\plugins\\admin\\themes\\grav\\templates\\partials\\stylesheets.html.twig");
     }
 }

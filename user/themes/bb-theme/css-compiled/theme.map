@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "../scss/theme.css",
+	"sources": [
+		"../scss/theme.scss",
+		"../scss/theme/_default.scss"
+	],
+	"sourcesContent": [
+		"// THEME COMPONENTS\r\n\r\n@import \"theme/default\";",
+		"/* images responsive */\r\nimg {\r\n    max-width: 100%;\r\n}\r\n\r\n\r\n// Footer\r\n.footer {\r\n    position: absolute;\r\n    bottom: 0;\r\n    width: 100%;\r\n    /* Set the fixed height of the footer here */\r\n    height: 60px;\r\n}"
+	],
+	"mappings": "ACAA,uBAAuB;;AACvB,AAAA,GAAG,CAAC;EACA,SAAS,EAAE,IAAK;CACnB;;;AAID,AAAA,OAAO,CAAC;EACJ,QAAQ,EAAE,QAAS;EACnB,MAAM,EAAE,CAAE;EACV,KAAK,EAAE,IAAK;EACZ,6CAA6C;EAC7C,MAAM,EAAE,IAAK;CAChB",
+	"names": []
+}

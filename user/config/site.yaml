@@ -1,7 +1,7 @@
-title: Grav
+title: Nonograph
 author:
-  name: Joe Bloggs
-  email: 'joe@example.com'
+  name: Bruno Buglio
+  email: 'bruno.buglio@gmail.com'
 metadata:
-    description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
-
+    description: 'Bruno Buglio awesome portfolio'
+taxonomies: [category,tag,CD,AD,account]
