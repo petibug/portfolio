@@ -1,22 +1,36 @@
 {% extends 'partials/base.html.twig' %}
 
 {% block content %}
-    {{page.title}}
-    {{ page.content }}
+   
 
-    <div>
-        <ul>
-        {% for image in page.media.images %}
-        <li>
-            <div class="image-surround">
-                {{ image.cropResize(300,200).html }}
+
+
+        <div class="pure-g">
+            <div class="pure-u-1-5">
+            {% include 'partials/navigation_projects.html.twig' %}
             </div>
-            <div class="image-info">
-                <h2>{{ image.meta.title }}</h2>
-                <p>{{ image.meta.description }}</p>
-            </div>
-        </li>
-        {% endfor %}
-        </ul>
-    </div>
+
+            <div class="pure-u-4-5">
+                {{page.title}}
+                {{ page.content }}
+
+                <div>
+                    <ul>
+                    {% for filename, image in page.media.images %}
+                    {% if filename != site.project_thumbnail %}
+                    <li>
+                        <div class="image-surround">
+                            {{ image.cropResize(300,200).html }}
+                        </div>
+                        <div class="image-info">
+                            <h2>{{ image.meta.title }}</h2>
+                            <p>{{ image.meta.description }}</p>
+                        </div>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                    </ul>
+                </div>
+             </div>
+        </div>
 {% endblock %}

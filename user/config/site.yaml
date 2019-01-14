@@ -5,3 +5,7 @@ author:
 metadata:
     description: 'Bruno Buglio awesome portfolio'
 taxonomies: [category,tag,CD,AD,account]
+
+
+#personal vars
+project_thumbnail: preview.jpg

@@ -1,16 +1,23 @@
 /* images responsive */
-/* line 2, E:/WEB-DEV/portfolio/user/themes/bb-theme/scss/theme/_default.scss */
+/* line 2, E:/WEBDEV/PORTFOLIO/portfolio/user/themes/bb-theme/scss/theme/_default.scss */
 img {
   max-width: 100%;
 }
 
-/* line 8, E:/WEB-DEV/portfolio/user/themes/bb-theme/scss/theme/_default.scss */
+/* line 8, E:/WEBDEV/PORTFOLIO/portfolio/user/themes/bb-theme/scss/theme/_default.scss */
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
+}
+
+/* line 3, E:/WEBDEV/PORTFOLIO/portfolio/user/themes/bb-theme/scss/theme/_navigation.scss */
+nav .selected,
+nav .selected a {
+  font-weight: bold;
+  color: #666666;
 }
 
 /*# sourceMappingURL=../css-compiled/theme.map */

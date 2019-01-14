@@ -2,9 +2,23 @@
 
 {% block content %}
 
-    <div>
-    {% include 'partials/navigation_projects.html.twig' %}
-    </div>
+    <div class="pure-g">
+        <div class="pure-u-1-5">
+        {% include 'partials/navigation_projects.html.twig' %}
+        </div>
 
-    {{ page.content }}
+        <div class="pure-u-4-5">
+            <div>
+            {{ page.content }}
+            </div>
+            <div>
+            {% for p in page.collection %}
+                {% if p.media[site.project_thumbnail] %}
+                    <a href="{{ p.url }}"><img src="{{ p.media[site.project_thumbnail].url }}" title="" /> </a>
+                {% endif %}        
+            {% endfor %}
+            </div>
+        </div>
+
+    </div>
 {% endblock %}
