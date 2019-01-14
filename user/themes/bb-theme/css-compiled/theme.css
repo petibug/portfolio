@@ -18,6 +18,17 @@ nav .selected,
 nav .selected a {
   font-weight: bold;
   color: #666666;
+  padding-left: 0px;
+  -webkit-transition: padding-left 2s;
+  /* Safari */
+  transition: padding-left 2s;
+}
+
+/* line 12, E:/WEBDEV/PORTFOLIO/portfolio/user/themes/bb-theme/scss/theme/_navigation.scss */
+nav .selected a:hover {
+  font-weight: bold;
+  color: #fc0606;
+  padding-left: 20px;
 }
 
 /*# sourceMappingURL=../css-compiled/theme.map */
